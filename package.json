@@ -1,0 +1,28 @@
+{
+  "name": "music_dl",
+  "version": "1.0.0",
+  "description": "A node Js backed web app to download songs using a simple text search.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SagarDeka-2299/music_dl.git"
+  },
+  "author": "Sagar Deka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SagarDeka-2299/music_dl/issues"
+  },
+  "homepage": "https://github.com/SagarDeka-2299/music_dl#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "youtube-search": "^1.1.4",
+    "ytdl-core": "^2.1.7"
+  }
+}
